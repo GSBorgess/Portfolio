@@ -1,0 +1,31 @@
+#hardSkill .hardSkill__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+/* ======= MEDIA QUERIES (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) {
+  #hardSkill .hardSkill__container {
+    grid-template-columns: 1fr;
+  }
+  #hardSkill .hardSkill__container > .hardSkill__card {
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto;
+  }
+  #hardSkill .hardSkill__content {
+    padding: 1rem;
+  }
+}
+
+/* ======= MEDIA QUERIES (SMALL DEVICES) */
+@media screen and (max-width: 600px) {
+  #hardSkill .hardSkill__container {
+    gap: 1rem;
+  }
+  #hardSkill .hardSkill__container > .hardSkill__card {
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+}

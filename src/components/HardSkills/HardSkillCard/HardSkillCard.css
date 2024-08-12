@@ -1,0 +1,50 @@
+.hardSkill__card {
+  padding: 30px 40px;
+  border: 1px solid transparent;
+  transition: var(--transition);
+  border-radius: var(--border-radius-3);
+  background: rgba(var(--card-rgb), 0.1);
+}
+
+.hardSkill__card:hover {
+  background: transparent;
+  border-color: var(--color-primary);
+  cursor: default;
+}
+
+.hardSkill__card h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--color-primary);
+}
+
+.hardSkill__card .hardSkill__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2rem;
+}
+
+.hardSkill__card .hardSkill__details {
+  display: flex;
+  gap: 1rem;
+}
+.hardSkill__card .hardSkill__icon {
+  margin-top: 6px;
+  color: var(--color-primary);
+}
+.hardSkill__card .hardSkill__details .hardSkill__name {
+  font-size: 15px;
+  font-weight: 500;
+}
+.hardSkill__card .hardSkill__details .hardSkill__level {
+  font-size: 14px;
+}
+
+@media (max-width: 350px) {
+  .hardSkill__card .hardSkill__details .hardSkill__name {
+    font-size: 12px;
+  }
+  .hardSkill__card .hardSkill__details .hardSkill__level {
+    font-size: 10px;
+  }
+}
