@@ -43,7 +43,7 @@ const SoftSkills = () => {
   }, []);
 
   return (
-    <section ref={container} id="softs">
+    <section ref={container} id="habilidades">
       <div className="section__wrapper softs__container">
         <div className="section__header center">
           <h2 className="primary__title">Soft Skills</h2>

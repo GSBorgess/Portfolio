@@ -97,7 +97,7 @@ const Navbar = () => {
       </div>
       <div className="column nav__buttons__group">
         <button className="btn btn__primary">
-          <a href="#contact">
+          <a href="https://wa.me/5551994207862">
             Contato <FaArrowUpRightFromSquare />
           </a>
         </button>

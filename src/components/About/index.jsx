@@ -27,7 +27,7 @@ const About = () => {
   }, []);
 
   return (
-    <section ref={container} id="about">
+    <section ref={container} id="sobre">
       <div className="section__wrapper about__container">
         <div className="me__container blur-effect">
           <div className="photo__container">

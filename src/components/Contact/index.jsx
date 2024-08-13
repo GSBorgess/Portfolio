@@ -49,19 +49,6 @@ const Contact = () => {
           </div>
           {/* END OF CONTACT OPTION */}
 
-          <form /* ref={form} onSubmit={sendEmail} */>
-            <input type="text" name="name" placeholder="Nome" required />
-            <input type="email" name="email" placeholder="Email" required />
-            <textarea
-              name="message"
-              rows="7"
-              placeholder="Mensagem"
-              required
-            ></textarea>
-            <button type="submit" className="btn btn__primary">
-              Enviar
-            </button>
-          </form>
         </div>
       </div>
     </section>

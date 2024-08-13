@@ -13,10 +13,9 @@ function App() {
      <Navbar />
      <Header />
      <About />
-     <HardSkills />
      <SoftSkills />
+     <HardSkills />
      <Projects />
-     <Contact />
      <Footer />
     </>
   );

@@ -5,7 +5,7 @@ import { experience } from "../../data";
 
 const HardSkill = () => {
   return (
-    <section id="hardSkill">
+    <section id="tecnologias">
       <div className="section__wrapper">
         <div className="section__header center">
           <h2 className="primary__title">Hard Skills</h2>

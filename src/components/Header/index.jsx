@@ -73,7 +73,7 @@ const Header = () => {
             </div>
             <div className="header__info__bottom">
               <button className="btn">
-                <a href="wa.me/5551994207862">Whatsapp</a>
+                <a href="https://wa.me/5551994207862">Whatsapp</a>
               </button>
               <button className="btn">
                 <a href="mailto:gabrielborgesschmidt@gmail.com">Email</a>

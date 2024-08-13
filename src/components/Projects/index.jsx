@@ -40,7 +40,7 @@ const Projects = () => {
   };
 
   return (
-    <section id="projects">
+    <section id="projetos">
       <div className="section__wrapper projects__container">
         <div className="section__header center">
           <h1 className="primary__title">Projetos</h1>

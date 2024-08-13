@@ -1,10 +1,10 @@
-#softs .softs__group {
+#habilidades .softs__group {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 
-#softs .soft {
+#habilidades .soft {
   position: relative;
   overflow: hidden;
   border-radius: var(--border-radius-3);
@@ -13,13 +13,13 @@
   isolation: isolate;
   cursor: pointer;
 }
-#softs .soft::before,
-#softs .soft::after {
+#habilidades .soft::before,
+#habilidades .soft::after {
   content: "";
   position: absolute;
 }
 
-#softs .soft::before {
+#habilidades .soft::before {
   width: 200%;
   height: 200%;
   background-image: conic-gradient(
@@ -41,23 +41,23 @@
   }
 }
 
-#softs .soft:hover::before {
+#habilidades .soft:hover::before {
   animation-play-state: running;
 }
-#softs .soft::after {
+#habilidades .soft::after {
   background: var(--color-ui-2);
   inset: 0.25rem;
   border-radius: calc(1.2rem - 0.25rem);
   z-index: -1;
   transition: var(--transition);
 }
-#softs .soft .soft__top {
+#habilidades .soft .soft__top {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
   position: relative;
 }
-#softs .soft .title {
+#habilidades .soft .title {
   font-size: 25px;
   background: linear-gradient(
     to right,
@@ -68,26 +68,26 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
-#softs .soft .description {
+#habilidades .soft .description {
   text-align: center;
   font-size: 16px;
   line-height: 25px;
   transition: var(--transition);
 }
-#softs .soft:hover .description {
+#habilidades .soft:hover .description {
   color: var(--color-text);
 }
 
-#softs .soft .soft__bottom {
+#habilidades .soft .soft__bottom {
   margin-top: 30px;
   display: flex;
   justify-content: center;
 }
-#softs .soft:hover .soft__bottom {
+#habilidades .soft:hover .soft__bottom {
   bottom: 0;
 }
 
-#softs .soft .btn.btn__primary {
+#habilidades .soft .btn.btn__primary {
   background: linear-gradient(
     260deg,
     var(--color-secondary) 0%,
@@ -95,17 +95,17 @@
   );
   background-size: 200% auto;
 }
-#softs .soft .btn.btn__primary:hover {
+#habilidades .soft .btn.btn__primary:hover {
   background-position: right center !important;
 }
 
 /* ======= MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1000px) {
-  #softs .softs__group {
+  #habilidades .softs__group {
     grid-template-columns: 1fr;
     gap: 20px;
   }
-  #softs .soft__top {
+  #habilidades .soft__top {
     display: flex;
     flex-direction: column;
     align-items: center;

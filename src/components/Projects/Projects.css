@@ -1,4 +1,4 @@
-#projects nav {
+#projetos nav {
   position: relative;
   width: 100%;
   max-width: max-content;
@@ -11,7 +11,7 @@
   margin-bottom: 40px;
   user-select: none;
 }
-#projects nav button {
+#projetos nav button {
   position: relative;
   display: inline-block;
   font-size: 16px;
@@ -23,7 +23,7 @@
   cursor: pointer;
   background: transparent;
 }
-#projects .active__indicator {
+#projetos .active__indicator {
   position: absolute;
   top: 0;
   left: 0;
@@ -35,7 +35,7 @@
   background: var(--gradient-1);
 }
 
-#projects .card__container {
+#projetos .card__container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   text-align: center;
@@ -44,16 +44,16 @@
 
 /* Responsive design codes */
 @media screen and (max-width: 900px) {
-  #projects .card__container {
+  #projetos .card__container {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media screen and (max-width: 650px) {
-  #projects nav button {
+  #projetos nav button {
     font-size: 14px;
   }
-  #projects .card__container {
+  #projetos .card__container {
     grid-template-columns: 1fr;
   }
 }

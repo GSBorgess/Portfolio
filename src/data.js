@@ -19,10 +19,9 @@ import { SiAdobexd } from "react-icons/si";
 
 export const menu = [
   { name: "Sobre" },
-  { name: "Soft Skills" },
-  { name: "Hard Skills" },
+  { name: "Habilidades" },
+  { name: "Tecnologias" },
   { name: "Projetos" },
-  { name: "Contato" },
 ];
 
 export const projects = [
@@ -103,7 +102,7 @@ export const projects = [
     ],
   },
   {
-    id: 4,
+    id: 3,
     title: "Estou trabalhando nisso",
     image: "/",
     category: "Apps",
