@@ -1,6 +1,7 @@
 import { DiReact } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
 import {
+  SiAxios,
   SiCss3,
   SiExpress,
   SiHandlebarsdotjs,
@@ -10,6 +11,7 @@ import {
   SiNodedotjs,
   SiReact,
   SiReactrouter,
+  SiSqlite,
 } from "react-icons/si";
 import { SiFiverr } from "react-icons/si";
 import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
@@ -103,16 +105,47 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Estou trabalhando nisso",
-    image: "/",
+    title: "Ecoleta",
+    image: "/ecoleta.jpg",
     category: "Apps",
     data: {
-      description: `Estou desenvolvendo um aplicativo, em breve estara online.`,
+      description: `O Ecoleta é uma aplicação desenvolvida durante a Next Level Week da Rocketseat, sob a orientação do professor Diego Fernandes. O projeto tem como objetivo conectar empresas e entidades que coletam resíduos recicláveis a pessoas que precisam descartar esse material de forma consciente e ambientalmente responsável. No desenvolvimento do Ecoleta, utilizei tecnologias como Node.js, React, e SQLite para criar uma solução fullstack. A aplicação inclui um backend robusto, capaz de gerenciar pontos de coleta e usuários e uma interface web intuitiva para administração dos pontos de coleta. Este projeto foi uma oportunidade de aplicar meus conhecimentos em desenvolvimento de aplicações completas, desde a criação da API até a implementação da interface do usuário, sempre com foco na usabilidade e na sustentabilidade.`,
       demoLink: "https://google.com/",
     },
     stack: [
       {
-        name: "Em breve",
+        name: "ReactJs",
+        icon: <SiReact />,
+        iconColor: "skyblue",
+      },
+      {
+        name: "SQLite",
+        icon: <SiSqlite />,
+        iconColor: "skyblue",
+      },
+      {
+        name: "NodeJs",
+        icon: <FaNodeJs />,
+        iconColor: "green",
+      },
+      {
+        name: "Axios",
+        icon: <SiAxios />,
+        iconColor: "purple",
+      },
+      {
+        name: "HTML5",
+        icon: <SiHtml5 />,
+        iconColor: "orange",
+      },
+      {
+        name: "CSS3",
+        icon: <SiCss3 />,
+        iconColor: "skyblue",
+      },
+      {
+        name: "Express",
+        icon: <SiExpress />,
       },
     ],
   },
