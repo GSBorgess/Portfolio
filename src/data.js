@@ -32,7 +32,7 @@ export const projects = [
     category: "Web",
     data: {
       description: `Desenvolvi uma aplicação de inteligência artificial utilizando React no frontend, Node.js no backend e MongoDB para gerenciamento de dados, com a API Gemini AI integrada para fornecer as funcionalidades principais. O projeto foi feito para oferecer uma experiência de conversação natural e interativa, similar ao ChatGPT, permitindo que os usuários façam perguntas e recebam respostas detalhadas e contextualizadas.`,
-      demoLink: "/ausbi-image.png",
+      demoLink: "https://github.com/GSBorgess/ausbi-ia",
     },
     stack: [
       {
